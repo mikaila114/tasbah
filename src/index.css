@@ -70,6 +70,10 @@ body {
   border: none;
   box-shadow: 8px 8px 15px #afafaf, -8px -8px 15px #ffffff;
 }
+.buttons button:active {
+  background: #fae8d7;
+  transition: 0.4s ease;
+}
 .add-btn {
   position: fixed;
   top: 250px;
