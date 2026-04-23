@@ -63,27 +63,28 @@ body {
    box-shadow: 8px 8px 15px #afafaf, -8px -8px 15px #ffffff;
 }
 .buttons {
-  display: flex;
-  align-items: center;
+  position: absolute;
+  bottom: 170px; /* ya tsaya kasa */
   width: 100%;
-  gap: 40px;
+  display: flex;
   justify-content: center;
-  margin: 50%;
+  gap: 40px;
 }
 .buttons button {
   padding: 2em;
-  border-radius: 40%;
+  border-radius: 50%;
   background: #faf0e6;
   border: none;
   box-shadow: 8px 8px 15px #afafaf, -8px -8px 15px #ffffff;
 }
+
 .buttons button:active {
   background: #fae8d7;
   transition: 0.4s ease;
 }
 .add-btn {
-  position: fixed;
-  top: 250px;
+  position: absolute;
+  bottom: 90px; /* ya tashi sama da sauran */
 }
 .mainContainer {
   background-color: #f5f5f577;
