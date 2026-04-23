@@ -6,17 +6,23 @@ body {
   font-family: 'poppins';
   padding: 1em;
 }
+
+
 .counter {
   display: flex;
   max-width: 414px;
   height: 600px;
-  background: white;
+  background: rgba(255, 255, 255, 0.678);
   display: flex;
   flex-direction: column;
   margin: 20px auto;
 }
+.counter {
+  background: rgb(29, 29, 29);
+}
+/*can */
 .heading {
-  background: white;
+  background: rgb(255, 255, 255);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -32,8 +38,9 @@ body {
   border: none;
   background: #f5f5f5;
 }
+/* can */
 .main-continer {
-  background-color: #fafafa;
+  background-color: #ffffff;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -77,4 +84,11 @@ body {
 .add-btn {
   position: fixed;
   top: 250px;
+}
+.mainContainer {
+  background-color: #f5f5f577;
+}
+ 
+.body-class-list {
+   background-color: #161616;
 }
